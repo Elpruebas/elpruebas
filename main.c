@@ -18,6 +18,6 @@ int main(int argc, char **argv)
 >>>>>>> repositorio2-1:main.c
 
 	printf("Hello, %s %s!\n", first, last);
- 	return 0;
+ 	return 1;
 }
 
