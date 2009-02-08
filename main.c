@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 {
 	char name[255];
 
-	printf("Enter your name: ");
+	printf("Enter your name por favor: ");
 	fgets(name, 255, stdin);
 	printf("length = %d\n", strlen(name)); /* debug line */
 	name[strlen(name)-1] = '\0'; /* remove the newline at the end */
@@ -13,4 +13,5 @@ int main(int argc, char **argv)
 	printf("Hello %s!\n", name);
 	return 0;
 
+	printf("mi cambio de prueba");
 }
