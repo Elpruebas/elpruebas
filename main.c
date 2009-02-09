@@ -5,7 +5,15 @@ int main(int argc, char **argv)
 {
 	char first[255], last[255];
 
-	printf("Enter your first name: ");
+	printf("Enter your fizdfbvdgsdfg
+sdfh
+dfgh
+d
+fgh
+df
+gh
+df
+ghdcrst name: ");
 	fgets(first, 255, stdin);
 	first[strlen(first)-1] = '\0'; /* remove the newline at the end */
 
